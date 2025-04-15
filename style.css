@@ -1,0 +1,40 @@
+body {
+  background-image: url(https://img.freepik.com/premium-vector/vector-butterfly-seamless-repeat-pattern-design-background_654662-2106.jpg?w=360);
+}
+
+.container {
+  background-color: white;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  padding: 50px;
+  border-radius: 5px;
+  max-width: 50%;
+}
+
+h1,
+h2 {
+  font-weight: bolder;
+}
+
+select {
+  padding: 10px;
+  width: 150px;
+  background-color: #fedabb;
+  border: none;
+  border-radius: 5px;
+}
+
+.city {
+  background: #F7E2EB;
+  padding: 10px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+a {
+  color: #c8a07a;
+}
