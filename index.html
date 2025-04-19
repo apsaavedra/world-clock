@@ -4,19 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel=""
-      href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"
-    />
-    <link
-      rel=""
-      href="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.47/moment-timezone-with-data-1970-2030.min.js"
-    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+IT+Moderna:wght@100..400&family=Preahvihear&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Onest:wght@100..900&family=Poiret+One&display=swap"
       rel="stylesheet"
     />
 
@@ -25,7 +19,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>World Clock</h1>
+      <h1>WORLD CLOCK</h1>
 
       <select name="" id="">
         <option value="">Select a city</option>
@@ -35,11 +29,31 @@
         <option value="reykjavik">Reykjavík</option>
       </select>
 
-      <div class="city">
-        <h2>Montevideo</h2>
-        <div class="date">Date</div>
-        <div class="time">Time</div>
+      <div class="city" id="montevideo">
+        <div class="city-date">
+          <h2>Montevideo</h2>
+          <div class="date"></div>
+        </div>
+        <div class="time"></div>
       </div>
+
+      <div class="city" id="paris">
+        <div>
+          <h2>Paris</h2>
+          <div class="date">Date</div>
+        </div>
+        <div class="time">00:00:00</div>
+      </div>
+
+      <div class="city" . id="new-york">
+        <div>
+          <h2>New York</h2>
+          <div class="date">Date</div>
+        </div>
+        <div class="time">00:00:00</div>
+      </div>
+
+      <br />
 
       <footer>
         This project was coded by <a href="" target="_blank">Ana Saavedra</a>,
