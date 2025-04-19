@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/055/794/623/large_2x/pastel-purple-tablecloth-pattern-design-free-vector.jpg);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/163/565/original/pastel-purple-tablecloth-pattern-design-free-vector.jpg?1745102324);
   font-family: "Jura", sans-serif;
   background-repeat: repeat-x;
 }
@@ -76,6 +76,6 @@ footer {
 }
 
 a {
-  color: #B28DC0;
+  color: #b28dc0;
   font-weight: bolder;
 }
